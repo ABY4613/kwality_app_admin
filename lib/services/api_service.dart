@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class ApiService {
-  static const String baseUrl = 'https://kwalityserver.bhaskaraengg.in/api';
+  static const String baseUrl = 'apiurl';
 
   static Future<Map<String, String>> _getHeaders() async {
     final token = await AuthService.getToken();
