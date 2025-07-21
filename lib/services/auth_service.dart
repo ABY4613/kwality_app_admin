@@ -2,7 +2,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 
 class AuthService {
-  static const String baseUrl = 'https://kwalityserver.bhaskaraengg.in/api';
+  static const String baseUrl = 'apiurl';
   static const String TOKEN_KEY = 'auth_token';
   static const String USER_ID_KEY = 'user_id';
   static const String EMAIL_KEY = 'user_email';

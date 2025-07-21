@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 class ServiceManagementService {
-  static const String baseUrl = 'https://kwalityserver.bhaskaraengg.in/api';
+  static const String baseUrl = 'apiurl';
 
   static Future<List<Map<String, dynamic>>> getServices(String token) async {
     final response = await http.get(

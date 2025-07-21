@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 class FoodItemService {
-  static const String baseUrl = 'https://kwalityserver.bhaskaraengg.in/api';
+  static const String baseUrl = 'apiurl';
 
   static Future<List<Map<String, dynamic>>> getFoodItems(int categoryId, String token) async {
     try {
